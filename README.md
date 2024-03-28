@@ -1,6 +1,6 @@
 # KG4Ex
 
-[KG4Ex.png](https://github.com/chanllon/KG4EX/blob/main/KG4Ex.PNG)
+<img src="KG4Ex.png" alt="drawing" width = "2000"> 
 
 This is the official implementation for our paper **KG4Ex: An Explainable Knowledge Graph-Based Approach for Exercise Recommendation**, accepted by **CIKM'23**.
 
