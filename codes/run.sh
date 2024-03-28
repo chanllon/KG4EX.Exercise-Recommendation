@@ -1,0 +1,1 @@
+python -u run.py --do_train --cuda --data_path ../data/algebra2005 --model TransE -n 256 -b 1024 -d 1000 -g 12.0 -a 1.0 -lr 0.001 -adv --max_steps 30000 -save models/algebra2005/TransE_adv
