@@ -1,4 +1,4 @@
-# KG4Ex: : Knowledge Graph 4 Exercise Recommendation
+# KG4Ex: Knowledge Graph 4 Exercise Recommendation
 
 <img src="KG4Ex.png" alt="drawing" width = "2000"> 
 
