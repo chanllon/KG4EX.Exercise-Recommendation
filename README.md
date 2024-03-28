@@ -30,6 +30,10 @@ The code is built on Pytorch and the [pyKT](https://github.com/pykt-team/pykt-to
 3. Recommendation and evaluation: the embedding vectors of entities and relationships are saved in `KG4Ex/codes/models`. Run `test_TransE.py` to obtain corresponding indicator results.
 
 
+## The interpretability of KG4Ex
+To validate the interpretability of KG4Ex and the rationality of exercise recommendations, we conducted real interviews with 250 real students. The student interviews were conducted through questionnaire surveys. We are making the questionnaire content public here `questionnaire.txt`.
+
+
 ## Citation
 If you find our work helpful, please kindly cite our research paper:
 ```
