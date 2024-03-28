@@ -1,0 +1,57 @@
+Exercise Recommendation Survey
+The survey focuses on giving you reasons for recommending a particular exercise that suits you, and we want to know how you intuitively feel about that reason for recommendation.
+
+1. Exercises may examine many knowledge points, and we will analyze your mastery of these knowledge points and recommend suitable exercises.
+For example, after analyzing your mastery of knowledge points, we recommend you a certain math problem, which includes the examination of knowledge points (function, equation, diagram), and the mastery level of the corresponding knowledge points is: function (80%), equation (90%), and diagram (100%).
+When recommending an exercise for you, do you think this recommended reason helps you to choose the exercise for practice?
+□ Yes, very much
+□ Yes, quite much
+□ Yes, somewhat
+□ No
+□ Not at All
+
+2. Exercises may examine many knowledge points, and we will analyze your mastery of these knowledge points and determine whether the exercise is appropriate for you.
+For example, we analyze your mastery of knowledge points and recommend you a certain math problem, which contains the examination of knowledge points (function, equation, diagram), and the mastery level of the corresponding knowledge points is: function (80%), equation (90%), diagram (100%). The analysis reveals that this math exercise is of an appropriate difficulty level for you (difficulty of 0.28, i.e., you have 28% probability of answering this question incorrectly).
+When recommending exercises for you, do you think it is reasonable to utilize the difficulty of the exercises as one of the recommendation principles?
+□ Very Reasonable
+□ Quite Reasonable
+□ Reasonable
+□ Unreasonable
+□ Very Unreasonable
+
+3. Exercises may examine many knowledge points, we will analyze whether the knowledge points contained in these exercises meet your learning progress and recommend appropriate exercises. 
+For example, we analyze your learning progress and recommend a certain history question which contains knowledge points (Opium War, Renaissance, Reform and Opening Up).
+When recommending an exercise for you, do you think this recommended reason helps you to choose the exercise for practice?
+□ Yes, very much
+□ Yes, quite much
+□ Yes, somewhat
+□ No
+□ Not at All
+
+4. Exercises may examine many knowledge points, we will analyze whether the knowledge points contained in these exercises are consistent with your learning progress and determine whether the exercise is appropriate for you.
+For example, your current learning progress needs to learn the knowledge points (Shang Yang Changfa, Renaissance, Opium War, Reform and Opening Up), we analyze your learning progress and recommend you a certain history question, which contains the knowledge points (Renaissance, Opium War, Reform and Opening Up) to be examined. By calculating and analyzing this history question, it is better consistent with your learning progress (the degree of consistency is 0.87).
+When recommending exercises for you, do you think it is reasonable to utilize the fact that the knowledge points of the exercises are consistent with your learning progress as one of the recommendation principles?
+□ Very Reasonable
+□ Quite Reasonable
+□ Reasonable
+□ Unreasonable
+□ Very Unreasonable
+
+5. The learning process does not happen overnight and often involves forgetting and reviewing knowledge points. We will analyze how much you have forgotten, consider when you need to review, and recommend appropriate exercises.
+For example, we analyze your forgotten knowledge points and recommend you a certain English question, which contains knowledge points (word spelling, grammar rules, reading comprehension) to be examined, and the forgotten situation of the corresponding knowledge points are: word spelling (70%), grammar rules (60%), reading comprehension (80%).
+When recommending an exercise for you, do you think this recommended reason helps you to choose the exercise for practice?
+□ Yes, very much
+□ Yes, quite much
+□ Yes, somewhat
+□ No
+□ Not at All
+
+6. The learning process does not happen overnight and often involves forgetting and reviewing knowledge points. We will analyze how much you have forgotten, consider when you need to review, and recommend appropriate exercises.
+For example, we analyze your forgotten knowledge points and recommend you a certain English question, which contains knowledge points (word spelling, grammar rules, reading comprehension) to be examined, and the forgotten situation of the corresponding knowledge points are: word spelling (70%), grammar rules (60%), reading comprehension (80%). By calculating your forgetting rate for the exercises (70%), we think you need to review and consolidate in time.
+When recommending exercises for you, do you think it is reasonable to utilize the forgetting rate of knowledge points as one of the recommendation principles?
+□ Very Reasonable
+□ Quite Reasonable
+□ Reasonable
+□ Unreasonable
+□ Very Unreasonable
+

@@ -1,0 +1,6 @@
+torch>=1.13.1
+numpy>=1.23.5
+scipy>=1.10.1
+pandas>=2.0.3
+scikit_learn>=1.2.1
+pykt-toolkit>=0.0.38
