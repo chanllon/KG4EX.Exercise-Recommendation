@@ -2,6 +2,8 @@
 
 This is the official implementation for our paper **KG4Ex: An Explainable Knowledge Graph-Based Approach for Exercise Recommendation**, accepted by **CIKM'23**.
 
+<embed src="KG4Ex.pdf" type="application/pdf" width="100%" height="600px" />
+
 
 ## Requirements
 The code is built on Pytorch and the [pyKT](https://github.com/pykt-team/pykt-toolkit/tree/main) benchmark library. Run the following code to satisfy the requeiremnts by pip: `pip install -r requirements.txt`
