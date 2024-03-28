@@ -1,6 +1,6 @@
 # KG4Ex
 
-<embed src="KG4Ex.pdf" type="application/pdf" width="100%" height="600px"/>
+[<embed src="KG4Ex.pdf" type="application/pdf" width="100%" height="600px"/>](https://github.com/chanllon/KG4EX/blob/main/KG4Ex.pdf)
 
 This is the official implementation for our paper **KG4Ex: An Explainable Knowledge Graph-Based Approach for Exercise Recommendation**, accepted by **CIKM'23**.
 
