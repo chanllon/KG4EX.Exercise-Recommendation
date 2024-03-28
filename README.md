@@ -20,7 +20,7 @@ The code is built on Pytorch and the [pyKT](https://github.com/pykt-team/pykt-to
 
 - Preprocess the dataset using [pyKT](https://github.com/pykt-team/pykt-toolkit/tree/main) to obtain the student's mastery level of knowledge concepts **(MLKC)**, the probability of knowledge concepts appearing in the next exercise **(PKC)**, and the forgetting rate of knowledge concepts **(FRKC)**.
 
-- We provide an example of a CSV file obtained after [pyKT](https://github.com/pykt-team/pykt-toolkit/tree/main) processing using the [Algebra 2005](https://pslcdatashop.web.cmu.edu/KDDCup/) dataset, located in folder `KG4Ex/pyKT_example/Algebra2005.csv`.
+- We provide an example of a CSV file obtained after [pyKT](https://github.com/pykt-team/pykt-toolkit/tree/main) processing using the [Algebra 2005](https://pslcdatashop.web.cmu.edu/KDDCup/) dataset (top 10 rows), located in folder `KG4Ex/pyKT_example/Algebra2005.csv`.
 
 
 ## Run KG4Ex
