@@ -11,7 +11,7 @@ relation_embedding = np.load(f"{embedding_path}/relation_embedding.npy")
 entity_embedding = np.load(f"{embedding_path}/entity_embedding.npy")
 
 
-### 读取Q矩阵
+### read Q-matrix, entities, relations
 Q = []
 with open(f"{dict_path}/Q.txt", 'r') as file:
     i = 0
@@ -33,6 +33,7 @@ with open(f"{dict_path}/relations.dict", 'r') as fin:
         relation2id[relation] = int(rid)
 
 
+### read embeddings
 dict_entity_embedding = {}
 dict_relation_embedding = {}
 
@@ -47,6 +48,8 @@ def TransE(head, relation, tail, gamma=12.0):
     score = gamma - np.linalg.norm(score, ord=2)
     return score
 
+
+### read test_triples
 uid_mlkc_dict = {}
 uid_pkc_dict = {}
 uid_exfr_dict = {}
@@ -72,8 +75,7 @@ with open(f"{dict_path}/test_triples.txt", 'r', encoding="UTF-8") as load_file:
 
 
 
-
-### 计算推荐列表
+### calculate the score of each user for each exercise
 uid_ex_scores = []
 user_num = 0
 rec_embedding = torch.from_numpy(dict_relation_embedding['rec'])
@@ -81,7 +83,6 @@ uid_mlkc_dict_keys_list = [key for key in uid_mlkc_dict.keys()]
 print("start!!!")
 
 
-# 遍历每个用户，得到每个用户对每道题的评分
 for uid in uid_mlkc_dict_keys_list:
     user_num += 1
     uid_mlkc_keys = list(uid_mlkc_dict[uid].keys())
@@ -125,15 +126,14 @@ for uid in uid_mlkc_dict_keys_list:
     print(f"************************finish: {user_num} -- {uid}************************")
 
 
-print("-----------------------------------------------开始计算acc-----------------------------------------------")
+print("-----------------------------------------------Start calculating ACC-----------------------------------------------")
 
 def ACC(uid_mlkc_dict, uid_ex_scores, Q, r1, n):
     acc = []
     for item in uid_ex_scores:
-        # 将得分列表与qid一起存储，并进行排序
         uid, scores = item[0], item[1]
         sorted_scores = sorted(enumerate(scores), key=lambda x: x[1], reverse=True)
-        uid_ex_score = [item[0] for item in sorted_scores][:n]  # 取得分前n位的习题进行推荐
+        uid_ex_score = [item[0] for item in sorted_scores][:n]
         user_mlkc = uid_mlkc_dict[uid]
         diff = 0
         for ex_id in uid_ex_score:
