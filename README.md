@@ -55,7 +55,10 @@ author = {Quanlong Guan, Xinghe Cheng, Fang Xiao, Zhuzhou Li, Chaobo He, Liangda
 title = {Explainable exercise recommendation with knowledge graph},
 url = {https://doi.org/10.1016/j.neunet.2024.106954},
 booktitle = {Neural Networks},
+volume = {183},
+pages = {106954},
 year = {2025},
+issn = {0893-6080},
 }
 
 ```
