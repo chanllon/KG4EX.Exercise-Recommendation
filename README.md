@@ -50,4 +50,12 @@ pages = {597–607},
 year = {2023},
 }
 
+@inproceedings{10.1016/j.neunet.2024.106954，
+author = {Quanlong Guan, Xinghe Cheng, Fang Xiao, Zhuzhou Li, Chaobo He, Liangda Fang, Guanliang Chen, Zhiguo Gong, Weiqi Luo},
+title = {Explainable exercise recommendation with knowledge graph},
+url = {https://doi.org/10.1016/j.neunet.2024.106954},
+booktitle = {Neural Networks},
+year = {2025},
+}
+
 ```
